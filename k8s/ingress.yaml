@@ -12,7 +12,7 @@ spec:
   ingressClassName: traefik
   tls:
     - hosts:
-        - 'calendar-test.iwaskidding.com'
+        - 'calendar-test.sagarsys.net'
       secretName: calendar-app-tls-v2
   rules:
     - host: 'calendar-test.sagarsys.net'
